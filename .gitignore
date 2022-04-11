@@ -1,0 +1,36 @@
+#APP
+# add something
+log
+cache
+temp
+*.log
+_DEL_*
+_BAK_*
+
+# python and tools
+__pycache__
+**/*__pycache__
+env
+env_pdf
+.ipynb_checkpoints
+.coverage
+
+
+# IDE
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
