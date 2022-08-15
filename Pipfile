@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+spacy-udpipe = "*"
+docx2txt = "*"
+scikit-learn = "*"
+PySimpleGUI = "*"
+PyMuPDF = "*"
+
+[dev-packages]
+ipykernel = "*"
+sqlmodel = "*"
+pyinstaller = "*"
+pandas = "*"
+xlwt = "*"
+xlsxwriter = "*"
+psgdemos = "*"
+
+[requires]
+python_version = "3.7"
