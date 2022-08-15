@@ -1,0 +1,64 @@
+.dockerignore
+.gitignore
+.git
+Dockerfile
+docker-compose.yml
+README.md
+CHNGELOG.md
+setup.cfg
+.bandit
+.coverage
+.gitlab-ci.yml
+dev*
+tests
+env
+.*cache
+backend/_DEL_*
+backend/cache
+# ???
+models
+
+#APP
+# dev-gpn/data
+models/natasha/*.tar
+log
+cache
+temp
+*.log
+dev*/log
+dev*/**.html
+dev*/t*
+dev*/out
+dev*/data
+dev*/_*.pdf
+/doc/build
+_DEL_*
+_BAK_*
+
+# python and tools
+__pycache__
+**/*__pycache__
+env
+env_pdf
+.ipynb_checkpoints
+.coverage
+
+
+# IDE
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
