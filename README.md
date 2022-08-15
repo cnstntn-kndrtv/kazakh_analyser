@@ -1,2 +1,8 @@
-# repo_template
-repository template with .gitignore
+# Анализ тестов казахского языка.  
+  
+ы
+## Build app  
+```bash
+pyinstaller kaz_clf.spec
+```
+  
