@@ -1,6 +1,8 @@
 # Анализ тестов казахского языка.  
   
-ы
+
+[https://cnstntn-kndrtv.github.io/posts/kazakh-pos/](https://cnstntn-kndrtv.github.io/posts/kazakh-pos/)
+  
 ## Build app  
 ```bash
 pyinstaller kaz_clf.spec
