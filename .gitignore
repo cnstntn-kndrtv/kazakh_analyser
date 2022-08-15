@@ -6,12 +6,18 @@ temp
 *.log
 _DEL_*
 _BAK_*
+NOTES.md
+docker
+docker-compose.yml
+*.db
+dev
+app_*.py
 
 # python and tools
 __pycache__
 **/*__pycache__
 env
-env_pdf
+env37
 .ipynb_checkpoints
 .coverage
 
